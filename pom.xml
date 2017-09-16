@@ -8,7 +8,7 @@
   <url>http://maven.apache.org</url>
   <properties>
       <!-- This property will be set by the Maven Dependency plugin -->
-      <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
+      <!-- <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk> -->
   </properties>
  <scm>
     <connection>scm:git:ssh://git@gitlab.alm.gsnetcloud.corp:2220/abe104762/kiru-maven.git</connection>
