@@ -1,4 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mycompany.app</groupId>
   <artifactId>kiru-maven</artifactId>
@@ -6,11 +7,8 @@
   <version>1.0-SNAPSHOT</version>
   <name>kiru-maven</name>
   <url>http://maven.apache.org</url>
-  <properties>
-      <!-- This property will be set by the Maven Dependency plugin -->
-      <!-- <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk> -->
-  </properties>
- <scm>
+ 
+<scm>
     <connection>scm:git:ssh://git@gitlab.alm.gsnetcloud.corp:2220/abe104762/kiru-maven.git</connection>
     <developerConnection>scm:git:ssh://git@gitlab.alm.gsnetcloud.corp:2220/abe104762/kiru-maven.git</developerConnection>
   <tag>HEAD</tag>
