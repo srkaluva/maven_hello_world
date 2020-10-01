@@ -8,11 +8,7 @@
   <name>kiru-maven</name>
   <url>http://maven.apache.org</url>
  
-<scm>
-    <connection>scm:git:ssh://git@gitlab.alm.gsnetcloud.corp:2220/abe104762/kiru-maven.git</connection>
-    <developerConnection>scm:git:ssh://git@gitlab.alm.gsnetcloud.corp:2220/abe104762/kiru-maven.git</developerConnection>
-  <tag>HEAD</tag>
-  </scm>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -35,12 +31,7 @@
         <artifactId>jdk8</artifactId>
         <version>1.9.4</version>
     </dependency>
-    <!--
-    <dependency>
-        <groupId>com.mycompany.app</groupId>
-        <artifactId>my-app</artifactId>
-        <version>1.0</version>
-    </dependency> -->
+
   </dependencies>
   <build>
     <plugins>
