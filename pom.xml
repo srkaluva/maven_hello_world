@@ -128,12 +128,13 @@
   </build>
 <distributionManagement>
         <repository>
-            <id>kiru-release</id>
-            <url>http://localhost:8081/repository/kiru-release/</url>
+            <id>alpha</id>
+            <url>http://localhost:8081/repository/alpha-releases/</url>
         </repository>
     <snapshotRepository>
-        <id>kiru-snapshot</id>
-        <url>http://localhost:8081/repository/kiru-snapshot/</url>
+        <id>alpha</id>
+        <url>http://localhost:8081/repository/alpha-snapshot/</url>
     </snapshotRepository>
     </distributionManagement>
+
 </project>
