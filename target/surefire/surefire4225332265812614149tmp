@@ -1,0 +1,26 @@
+#surefire
+#Wed Oct 07 23:25:28 UTC 2020
+testClassesDirectory=/home/cloud_user/work1/maven_hello_world/target/test-classes
+classPathUrl.4=/home/cloud_user/.m2/repository/org/checkerframework/checker-qual/1.9.4/checker-qual-1.9.4.jar
+forkMode=once
+classPathUrl.3=/home/cloud_user/.m2/repository/org/checkerframework/checker/1.9.4/checker-1.9.4.jar
+classPathUrl.2=/home/cloud_user/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/cloud_user/work1/maven_hello_world/target/classes
+reportsDirectory=/home/cloud_user/work1/maven_hello_world/target/surefire-reports
+classPathUrl.0=/home/cloud_user/work1/maven_hello_world/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/home/cloud_user/work1/maven_hello_world/src/test/java
+surefireClassPathUrl.1=/home/cloud_user/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+surefireClassPathUrl.0=/home/cloud_user/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.10/surefire-junit3-2.10.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+includes0=**/Test*.java
+childDelegation=false
+classPathUrl.5=/home/cloud_user/.m2/repository/org/checkerframework/jdk8/1.9.4/jdk8-1.9.4.jar

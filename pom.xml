@@ -4,10 +4,13 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>kiru-maven</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>kiru-maven</name>
   <url>http://maven.apache.org</url>
  
+  <properties>
+    <sonar.host.url>http://172.31.29.82:8082</sonar.host.url>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -129,10 +132,12 @@
 <distributionManagement>
         <repository>
             <id>alpha</id>
-            <url>http://localhost:8081/repository/alpha-releases/</url>
+	    <name>alpha-release</name>
+            <url>http://localhost:8081/repository/alpha-release/</url>
         </repository>
     <snapshotRepository>
         <id>alpha</id>
+	<name>alpha-snapshot</name>
         <url>http://localhost:8081/repository/alpha-snapshot/</url>
     </snapshotRepository>
     </distributionManagement>

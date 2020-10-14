@@ -1,0 +1,5 @@
+#surefire
+#Wed Oct 07 23:25:28 UTC 2020
+user.dir=/home/cloud_user/work1/maven_hello_world
+localRepository=/home/cloud_user/.m2/repository
+basedir=/home/cloud_user/work1/maven_hello_world

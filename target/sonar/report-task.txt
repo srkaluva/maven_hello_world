@@ -1,0 +1,6 @@
+projectKey=com.mycompany.app:kiru-maven
+serverUrl=http://172.31.29.82:8082
+serverVersion=7.9.4.35981
+dashboardUrl=http://172.31.29.82:8082/dashboard?id=com.mycompany.app%3Akiru-maven
+ceTaskId=AXUkgjijpEpY-9MLQyYR
+ceTaskUrl=http://172.31.29.82:8082/api/ce/task?id=AXUkgjijpEpY-9MLQyYR
